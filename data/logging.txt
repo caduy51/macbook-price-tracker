@@ -350,3 +350,38 @@
 2024-10-17 09:00:33,671 - INFO - > Scrolling ...
 2024-10-17 09:00:36,985 - INFO - > Clicked
 2024-10-17 09:00:39,125 - INFO - Number of items 21 to crawl
+2024-10-17 13:06:46,267 - INFO - Crawling The gioi di dong ...
+2024-10-17 13:06:47,821 - INFO - > Saved 'laptop-air' into html. OK
+2024-10-17 13:06:47,821 - INFO - Crawling The gioi di dong ...
+2024-10-17 13:06:48,874 - INFO - > Saved 'laptop-pro' into html. OK
+2024-10-17 13:06:48,877 - INFO - Parsing laptop-air.html
+2024-10-17 13:06:48,911 - INFO - Parsing laptop-pro.html
+2024-10-17 13:06:48,930 - INFO - > Write Json File. OK
+2024-10-17 13:06:50,819 - INFO - Crawling FPT Shop ...
+2024-10-17 13:06:56,969 - INFO - > Scrolling ...
+2024-10-17 13:06:58,011 - INFO - > Scrolling ...
+2024-10-17 13:06:59,060 - INFO - > Scrolling ...
+2024-10-17 13:07:00,171 - INFO - > Clicked
+2024-10-17 13:07:01,210 - INFO - Number of items 27 to crawl
+2024-10-17 13:07:02,726 - INFO - > Crawled data from FPT Shop
+2024-10-17 13:07:04,254 - INFO - Crawling Di Dong Viet...
+2024-10-17 13:07:10,682 - INFO - > Scrolling ...
+2024-10-17 13:07:13,872 - INFO - > Clicked
+2024-10-17 13:07:15,876 - INFO - > Scrolling ...
+2024-10-17 13:07:19,050 - INFO - > Clicked
+2024-10-17 13:07:21,069 - INFO - Number of items 21 to crawl
+2024-10-17 13:07:22,118 - INFO - > Crawled data from Di Dong Viet
+2024-10-17 13:07:22,231 - INFO - Reading files from ['the_gioi_di_dong', 'fpt_shop', 'di_dong_viet']
+2024-10-17 13:07:22,231 - INFO - /Users/admin/me/dev/pet_project/macbook_price_tracker/macbook_price_tracker_v2/data/the_gioi_di_dong/daily_parsed, ['2024-10-11.json', '2024-10-07.json', '2024-09-30.json', '2024-10-06.json', '2024-10-17.json', '2024-10-01.json', '2024-10-16.json', '2024-10-03.json', '2024-10-15.json', '2024-10-14.json', '2024-10-02.json', '2024-10-13.json', '2024-10-12.json', '2024-10-04.json', '2024-10-08.json']
+2024-10-17 13:07:22,747 - INFO - /Users/admin/me/dev/pet_project/macbook_price_tracker/macbook_price_tracker_v2/data/fpt_shop/daily_parsed, ['2024-10-11.json', '2024-10-07.json', '2024-09-30.json', '2024-10-06.json', '2024-10-17.json', '2024-10-01.json', '2024-10-16.json', '2024-10-03.json', '2024-10-15.json', '2024-10-14.json', '2024-10-02.json', '2024-10-13.json', '2024-10-12.json', '2024-10-04.json', '2024-10-08.json']
+2024-10-17 13:07:23,260 - INFO - /Users/admin/me/dev/pet_project/macbook_price_tracker/macbook_price_tracker_v2/data/di_dong_viet/daily_parsed, ['2024-10-11.json', '2024-10-07.json', '2024-09-30.json', '.DS_Store', '2024-10-06.json', '2024-10-17.json', '2024-10-01.json', '2024-10-16.json', '2024-10-03.json', '2024-10-15.json', '2024-10-14.json', '2024-10-02.json', '2024-10-13.json', '2024-10-04.json', '2024-10-08.json']
+2024-10-17 13:07:23,788 - INFO - > Merged All Files. OK
+2024-10-17 13:11:24,941 - INFO - > Updated Values to Google Sheeets. OK
+2024-10-17 13:11:24,941 - INFO - Link to google sheets: https://docs.google.com/spreadsheets/d/1AkUttAItO-b9dEH2unxeCC-arH8pUAomCQfxntgduzs/edit?gid=551366507#gid=551366507
+2024-10-17 13:11:24,941 - INFO - Link to Dashboard: https://lookerstudio.google.com/u/0/reporting/a6940b3b-b157-4e37-be85-a5b0059b5ed1/page/xeYDE
+2024-10-17 13:11:58,108 - INFO - > Updated Values to Google Sheeets. OK
+2024-10-17 13:11:58,109 - INFO - Link to google sheets: https://docs.google.com/spreadsheets/d/1AkUttAItO-b9dEH2unxeCC-arH8pUAomCQfxntgduzs/edit?gid=551366507#gid=551366507
+2024-10-17 13:11:58,109 - INFO - Link to Dashboard: https://lookerstudio.google.com/u/0/reporting/a6940b3b-b157-4e37-be85-a5b0059b5ed1/page/xeYDE
+2024-10-17 13:12:15,687 - INFO - > Updated Values to Google Sheeets. OK
+2024-10-17 13:12:15,687 - INFO - Link to google sheets: https://docs.google.com/spreadsheets/d/1AkUttAItO-b9dEH2unxeCC-arH8pUAomCQfxntgduzs/edit?gid=551366507#gid=551366507
+2024-10-17 13:12:15,688 - INFO - Link to Dashboard: https://lookerstudio.google.com/u/0/reporting/a6940b3b-b157-4e37-be85-a5b0059b5ed1/page/xeYDE
