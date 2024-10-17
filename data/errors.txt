@@ -1,0 +1,57 @@
+2024-10-17 09:00:03,785 - INFO - Crawling The gioi di dong ...
+2024-10-17 09:00:04,856 - INFO - > Saved 'laptop-air' into html. OK
+2024-10-17 09:00:04,856 - INFO - Crawling The gioi di dong ...
+2024-10-17 09:00:05,683 - INFO - > Saved 'laptop-pro' into html. OK
+2024-10-17 09:00:05,685 - INFO - Parsing laptop-air.html
+2024-10-17 09:00:05,717 - INFO - Parsing laptop-pro.html
+2024-10-17 09:00:05,732 - INFO - > Write Json File. OK
+2024-10-17 09:00:08,914 - INFO - Crawling FPT Shop ...
+2024-10-17 09:00:14,801 - INFO - > Scrolling ...
+2024-10-17 09:00:15,907 - INFO - > Scrolling ...
+2024-10-17 09:00:16,994 - INFO - > Scrolling ...
+2024-10-17 09:00:18,218 - INFO - > Clicked
+2024-10-17 09:00:19,368 - INFO - Number of items 27 to crawl
+2024-10-17 09:00:20,819 - INFO - > Crawled data from FPT Shop
+2024-10-17 09:00:21,920 - INFO - Crawling Di Dong Viet...
+2024-10-17 09:00:28,231 - INFO - > Scrolling ...
+2024-10-17 09:00:31,557 - INFO - > Clicked
+2024-10-17 09:00:33,671 - INFO - > Scrolling ...
+2024-10-17 09:00:36,985 - INFO - > Clicked
+2024-10-17 09:00:39,125 - INFO - Number of items 21 to crawl
+Traceback (most recent call last):
+  File "/Users/admin/me/dev/pet_project/macbook_price_tracker/macbook_price_tracker_v2/src/./main.py", line 15, in <module>
+    crawl_didongviet()
+  File "/Users/admin/me/dev/pet_project/macbook_price_tracker/macbook_price_tracker_v2/src/didongviet/my_crawler.py", line 58, in crawl_didongviet
+    product_name = driver.find_element(By.XPATH, f"//div/div[3]/div/div[3]/div/div[{i}]/a/div[2]/div[2]/h3").text
+  File "/Users/admin/opt/anaconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 748, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/admin/opt/anaconda3/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/Users/admin/opt/anaconda3/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div/div[3]/div/div[3]/div/div[1]/a/div[2]/div[2]/h3"}
+  (Session info: chrome=129.0.6668.101); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000108f23d08 chromedriver + 4996360
+1   chromedriver                        0x0000000108f1b5ca chromedriver + 4961738
+2   chromedriver                        0x0000000108abed10 chromedriver + 388368
+3   chromedriver                        0x0000000108b0b30f chromedriver + 701199
+4   chromedriver                        0x0000000108b0b3f1 chromedriver + 701425
+5   chromedriver                        0x0000000108b50464 chromedriver + 984164
+6   chromedriver                        0x0000000108b2f9dd chromedriver + 850397
+7   chromedriver                        0x0000000108b4da00 chromedriver + 973312
+8   chromedriver                        0x0000000108b2f753 chromedriver + 849747
+9   chromedriver                        0x0000000108afe635 chromedriver + 648757
+10  chromedriver                        0x0000000108afee5e chromedriver + 650846
+11  chromedriver                        0x0000000108ee9ff0 chromedriver + 4759536
+12  chromedriver                        0x0000000108eeef08 chromedriver + 4779784
+13  chromedriver                        0x0000000108eef5d5 chromedriver + 4781525
+14  chromedriver                        0x0000000108ecca99 chromedriver + 4639385
+15  chromedriver                        0x0000000108eef8c9 chromedriver + 4782281
+16  chromedriver                        0x0000000108ebe034 chromedriver + 4579380
+17  chromedriver                        0x0000000108f0b9f8 chromedriver + 4897272
+18  chromedriver                        0x0000000108f0bbf3 chromedriver + 4897779
+19  chromedriver                        0x0000000108f1b1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff807add1d3 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff807ad8bd3 thread_start + 15
+
