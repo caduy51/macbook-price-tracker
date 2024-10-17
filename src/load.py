@@ -17,7 +17,6 @@ logger = setup_logging(os.path.join(DATA_DIR, "logging.txt"))
 # python sheets: https://docs.google.com/spreadsheets/d/1AkUttAItO-b9dEH2unxeCC-arH8pUAomCQfxntgduzs/edit?gid=0#gid=0
 SPREADSHEET_ID = '1AkUttAItO-b9dEH2unxeCC-arH8pUAomCQfxntgduzs'
 RANGE_NAME = 'Data!A1:C8'
-API_KEY = 'AIzaSyCv1-KzDV3Vsr0HDYkVkvvQ6rXc4mHXpRs'
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
 def create_credentials():
